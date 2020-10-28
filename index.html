@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>CI Web Shop</title>
         
+<<<<<<< HEAD
         <link rel="stylesheet" type="text/css" href=".\node_modules\bootstrap\dist\css\bootstrap.css">
         <link rel="stylesheet" type="text/css" href="./css/layout.css">
         <link rel="stylesheet" type="text/css" href="./css/utils.css">
@@ -13,6 +14,17 @@
         <script src=".\scripts\utils.js"></script>
         <script src=".\scripts\repository.js"></script>
         <script src=".\scripts\index.js"></script>
+=======
+        <link rel="stylesheet" type="text/css" href="node_modules\bootstrap\dist\css\bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css\layout.css">
+        <link rel="stylesheet" type="text/css" href="css\utils.css">
+        <script src="node_modules\angular\angular.js"></script>
+        <script src="node_modules\jquery\dist\jquery.js"></script>
+        <script src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
+        <script src="scripts\utils.js"></script>
+        <script src="scripts\repository.js"></script>
+        <script src="scripts\index.js"></script>
+>>>>>>> master
     </head>
     <body ng-app="shopApp">
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -23,18 +35,30 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+<<<<<<< HEAD
                     <a class="navbar-brand" href=".\index.html">CI Web Shop</a>
+=======
+                    <a class="navbar-brand" href="index.html">CI Web Shop</a>
+>>>>>>> master
                 </div>
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+<<<<<<< HEAD
                         <li><a href=".\views\shopping-cart.html"><span class="glyphicon glyphicon-shopping-cart"></span> Order</a></li>
+=======
+                        <li><a href="views\shopping-cart.html"><span class="glyphicon glyphicon-shopping-cart"></span> Order</a></li>
+>>>>>>> master
                     </ul>
                     <div class="navbar-form navbar-right">
                         <div class="form-group">
                             <input class="form-control" placeholder="Search" ng-model="query">
                         </div>
+<<<<<<< HEAD
                         <a href=".\views\search.html?q={{query}}" class="btn btn-default">
+=======
+                        <a href="views\search.html?q={{query}}" class="btn btn-default">
+>>>>>>> master
                             <span class="glyphicon glyphicon-search"></span>
                         </a>
                     </div>
@@ -69,16 +93,28 @@
                 <div ng-repeat="product in topProducts">
                     <div class="col-lg-4">
                         <div class="thumbnail">
+<<<<<<< HEAD
                             <a href=".\views\product.html?id={{product.id}}">
                                 <img src="http://placehold.it/150x150" alt="..." />
                             </a>
                             <div class="caption clearfix">
                                 <a href=".\views\product.html?id={{product.id}}">
+=======
+                            <a href="views\product.html?id={{product.id}}">
+                                <img src="http://placehold.it/150x150" alt="..." />
+                            </a>
+                            <div class="caption clearfix">
+                                <a href="views\product.html?id={{product.id}}">
+>>>>>>> master
                                     <h3 class="wrap" title="{{product.name}}">{{product.name}}</h3>
                                 </a>
                                 <p>{{'&euro; ' + product.price}}</p>
                                 <p class="clearfix">
+<<<<<<< HEAD
                                     <a href=".\views\shopping-cart.html" class="btn btn-primary pull-right">Buy</a>
+=======
+                                    <a href="views\shopping-cart.html" class="btn btn-primary pull-right">Buy</a>
+>>>>>>> master
                                 </p>
                             </div>
                         </div>

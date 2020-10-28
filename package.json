@@ -18,7 +18,10 @@
     "jquery": "^3.1.1"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "angular-mocks": "^1.8.2",
+=======
+>>>>>>> master
     "jasmine": "^3.6.2"
   }
 }
