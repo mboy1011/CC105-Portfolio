@@ -8,6 +8,7 @@
         <!-- build:css -->
         <link rel="stylesheet" type="text/css" href="..\node_modules\bootstrap\dist\css\bootstrap.css">
         <link rel="stylesheet" type="text/css" href="..\css\layout.css">
+        <link rel="stylesheet" type="text/css" href="..\css\utils.css">
         <!-- endbuild -->
         <!-- build:node_modules -->
         <script src="..\node_modules\angular\angular.js"></script>
@@ -20,11 +21,7 @@
     </head>
     <body ng-app="shopApp">
         <%- include navbar.ejs %>
-        <script src="..\scripts\bundles\login.bundle.js"></script>
- <!-- endbuild -->
- </head>
- <body ng-app="shopApp">
- <%- include navbar.ejs %>
+        <script src="..\scripts\login.js"></script>
         <div class="container" ng-controller="loginController">
             <div class="row">
             <form ng-submit="login()">
